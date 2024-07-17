@@ -20,12 +20,11 @@ h1 {
     height: 90vw; /* Keep it square */
     max-width: 960px;
     max-height: 960px;
-    border: 1px solid #333;
+    border: 5px solid #000000;
 }
 
 .grid-square {
     flex: 1 0 auto;
-    border: 1px solid #ddd;
     width: calc(90vw / 16); /* Adjust width */
     height: calc(90vw / 16); /* Adjust height */
     max-width: calc(960px / 16);
@@ -34,7 +33,7 @@ h1 {
 }
 
 .grid-square:hover {
-    background-color: #6200ea;
+    background-color: #6806c9;
 }
 
 button {
@@ -43,7 +42,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    background-color: #6200ea;
+    background-color: #6111c9;
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease;
